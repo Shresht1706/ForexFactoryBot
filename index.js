@@ -179,7 +179,7 @@ async function sendDailyEvents(channel) {
         const eventTime = utc3Date.toLocaleTimeString('en-US', { hour: '2-digit', minute: '2-digit', hour12: false });
 
         // Determine the impact flag
-        const impactFlag = event.impact === "High" ? "🔴" : "🟠";
+        const impactFlag = event.impact === "High" ? "Red" : "Yellow";
 
         const eventMessage = `- **${event.title}** at **${eventTime}** (${event.country}):\n  Impact: ${impactFlag} ${event.impact}\n\n`;
 
