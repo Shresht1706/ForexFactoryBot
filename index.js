@@ -205,3 +205,15 @@ async function sendDailyEvents(channel) {
     channel.send("An error occurred while fetching the events.");
   }
 }
+
+// Handle message commands
+client.on("messageCreate", async (message) => {
+  if (message.author.bot) return;
+
+  if (message.content === "!weeklyevents") {
+    await sendWeeklyEvents(message.channel);
+  } else if (message.content === "!dailyevents") {
+    await sendDailyEvents(message.channel);
+  }
+});
+
