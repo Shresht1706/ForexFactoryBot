@@ -4,8 +4,10 @@ const path = require("path");
 const {
   Client,
   GatewayIntentBits,
+  PermissionsBitField,
 } = require("discord.js");
 const schedule = require("node-schedule");
+const dateFormat = require("dateformat"); // Add dateFormat for formatting dates
 
 const CACHE_FILE = path.join(__dirname, "cached_events.json");
 
@@ -26,6 +28,11 @@ client.on("ready", () => {
 
 // Function to fetch ForexFactory events from the JSON endpoint or cache
 async function fetchForexFactoryEvents() {
+  if (fs.existsSync(CACHE_FILE)) {
+    const cachedData = fs.readFileSync(CACHE_FILE, "utf-8");
+    return JSON.parse(cachedData);
+  }
+
   return new Promise((resolve, reject) => {
     request(
       "https://nfs.faireconomy.media/ff_calendar_thisweek.json",
@@ -67,27 +74,20 @@ async function fetchForexFactoryEvents() {
   });
 }
 
-// Schedule a job to run every 5 days at 00:00 AM
-schedule.scheduleJob("0 0 */5 * *", async () => {
-  console.log("Running scheduled fetch every 5 days...");
+// Schedule a job to run daily at 6:10 AM
+schedule.scheduleJob("10 6 * * *", async () => {
+  console.log("Running daily scheduled fetch...");
 
   try {
-    await fetchForexFactoryEvents();
-    console.log("Fetched and cached events.");
+    const events = await fetchForexFactoryEvents();
+    if (events.length > 0) {
+      console.log("Fetched daily events.");
+      await sendWeeklyEventsToAllChannels(events);
+    } else {
+      console.log("No events found.");
+    }
   } catch (error) {
     console.error("Error during scheduled fetch:", error);
-  }
-});
-
-// Schedule a job to send daily events at 6 AM
-schedule.scheduleJob("0 6 * * *", async () => {
-  const channelId = 'YOUR_CHANNEL_ID'; // Replace with your channel ID
-  const channel = await client.channels.fetch(channelId);
-
-  if (channel) {
-    await sendDailyEvents(channel);
-  } else {
-    console.error("Channel not found");
   }
 });
 
@@ -124,7 +124,7 @@ async function sendWeeklyEvents(channel) {
         const eventTime = utc3Date.toLocaleTimeString('en-US', { hour: '2-digit', minute: '2-digit', hour12: false });
 
         // Determine the impact flag
-        const impactFlag = event.impact === "High" ? "🔴" : "🟡";
+        const impactFlag = event.impact === "High" ? "🔴" : "🟠";
 
         const eventMessage = `- **${event.title}** on **${eventDateString}** at **${eventTime}** (${event.country}):\n  Impact: ${impactFlag} ${event.impact}\n\n`;
 
@@ -216,4 +216,3 @@ client.on("messageCreate", async (message) => {
     await sendDailyEvents(message.channel);
   }
 });
-
