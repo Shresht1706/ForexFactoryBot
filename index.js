@@ -75,7 +75,7 @@ async function fetchForexFactoryEvents() {
 }
 
 // Schedule a job to run daily at 6:10 AM
-schedule.scheduleJob("10 6 * * *", async () => {
+schedule.scheduleJob("00 6 * * *", async () => {
   console.log("Running daily scheduled fetch...");
 
   try {
