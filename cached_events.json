@@ -1,641 +1,929 @@
 [
   {
-    "title": "Bank Lending y/y",
-    "country": "JPY",
-    "date": "2025-02-09T18:50:00-05:00",
-    "impact": "Low",
-    "forecast": "3.1%",
-    "previous": "3.1%"
-  },
-  {
-    "title": "Current Account",
-    "country": "JPY",
-    "date": "2025-02-09T18:50:00-05:00",
-    "impact": "Low",
-    "forecast": "2.73T",
-    "previous": "3.03T"
-  },
-  {
-    "title": "Economy Watchers Sentiment",
-    "country": "JPY",
-    "date": "2025-02-10T00:00:00-05:00",
-    "impact": "Low",
-    "forecast": "49.7",
-    "previous": "49.9"
-  },
-  {
-    "title": "Sentix Investor Confidence",
-    "country": "EUR",
-    "date": "2025-02-10T04:30:00-05:00",
-    "impact": "Low",
-    "forecast": "-16.4",
-    "previous": "-17.7"
-  },
-  {
-    "title": "Cleveland Fed Inflation Expectations",
-    "country": "USD",
-    "date": "2025-02-10T09:45:00-05:00",
+    "title": "BusinessNZ Services Index",
+    "country": "NZD",
+    "date": "2025-02-16T16:30:00-05:00",
     "impact": "Low",
     "forecast": "",
-    "previous": "3.8%"
+    "previous": "47.9"
   },
   {
-    "title": "ECB President Lagarde Speaks",
+    "title": "Visitor Arrivals m/m",
+    "country": "NZD",
+    "date": "2025-02-16T16:45:00-05:00",
+    "impact": "Low",
+    "forecast": "",
+    "previous": "1.0%"
+  },
+  {
+    "title": "Prelim GDP Price Index y/y",
+    "country": "JPY",
+    "date": "2025-02-16T18:50:00-05:00",
+    "impact": "Low",
+    "forecast": "2.8%",
+    "previous": "2.5%"
+  },
+  {
+    "title": "Prelim GDP q/q",
+    "country": "JPY",
+    "date": "2025-02-16T18:50:00-05:00",
+    "impact": "Low",
+    "forecast": "0.3%",
+    "previous": "0.2%"
+  },
+  {
+    "title": "Rightmove HPI m/m",
+    "country": "GBP",
+    "date": "2025-02-16T19:01:00-05:00",
+    "impact": "Low",
+    "forecast": "",
+    "previous": "1.7%"
+  },
+  {
+    "title": "Revised Industrial Production m/m",
+    "country": "JPY",
+    "date": "2025-02-16T23:30:00-05:00",
+    "impact": "Low",
+    "forecast": "0.3%",
+    "previous": "0.3%"
+  },
+  {
+    "title": "Tertiary Industry Activity m/m",
+    "country": "JPY",
+    "date": "2025-02-16T23:30:00-05:00",
+    "impact": "Low",
+    "forecast": "0.2%",
+    "previous": "-0.3%"
+  },
+  {
+    "title": "Italian Trade Balance",
     "country": "EUR",
-    "date": "2025-02-10T11:15:00-05:00",
-    "impact": "Medium",
+    "date": "2025-02-17T04:00:00-05:00",
+    "impact": "Low",
+    "forecast": "4.35B",
+    "previous": "4.22B"
+  },
+  {
+    "title": "Trade Balance",
+    "country": "EUR",
+    "date": "2025-02-17T05:00:00-05:00",
+    "impact": "Low",
+    "forecast": "14.4B",
+    "previous": "12.9B"
+  },
+  {
+    "title": "Eurogroup Meetings",
+    "country": "EUR",
+    "date": "2025-02-17T05:15:00-05:00",
+    "impact": "Low",
     "forecast": "",
     "previous": ""
   },
   {
-    "title": "President Trump Speaks",
-    "country": "USD",
-    "date": "2025-02-10T16:30:00-05:00",
-    "impact": "High",
-    "forecast": "",
-    "previous": ""
-  },
-  {
-    "title": "Westpac Consumer Sentiment",
-    "country": "AUD",
-    "date": "2025-02-10T18:30:00-05:00",
+    "title": "German Buba President Nagel Speaks",
+    "country": "EUR",
+    "date": "2025-02-17T06:00:00-05:00",
     "impact": "Low",
     "forecast": "",
-    "previous": "-0.7%"
+    "previous": ""
   },
   {
     "title": "Bank Holiday",
-    "country": "JPY",
-    "date": "2025-02-10T19:00:00-05:00",
+    "country": "CAD",
+    "date": "2025-02-17T08:00:00-05:00",
     "impact": "Holiday",
     "forecast": "",
     "previous": ""
   },
   {
-    "title": "BRC Retail Sales Monitor y/y",
-    "country": "GBP",
-    "date": "2025-02-10T19:01:00-05:00",
-    "impact": "Low",
-    "forecast": "1.1%",
-    "previous": "3.1%"
-  },
-  {
-    "title": "NAB Business Confidence",
-    "country": "AUD",
-    "date": "2025-02-10T19:30:00-05:00",
-    "impact": "Low",
-    "forecast": "",
-    "previous": "-2"
-  },
-  {
-    "title": "MPC Member Mann Speaks",
-    "country": "GBP",
-    "date": "2025-02-11T03:45:00-05:00",
-    "impact": "Low",
-    "forecast": "",
-    "previous": ""
-  },
-  {
-    "title": "NFIB Small Business Index",
+    "title": "Bank Holiday",
     "country": "USD",
-    "date": "2025-02-11T06:00:00-05:00",
-    "impact": "Low",
-    "forecast": "104.6",
-    "previous": "105.1"
-  },
-  {
-    "title": "BOE Gov Bailey Speaks",
-    "country": "GBP",
-    "date": "2025-02-11T07:15:00-05:00",
-    "impact": "High",
+    "date": "2025-02-17T08:00:00-05:00",
+    "impact": "Holiday",
     "forecast": "",
     "previous": ""
   },
   {
-    "title": "Building Permits m/m",
+    "title": "Housing Starts",
     "country": "CAD",
-    "date": "2025-02-11T08:30:00-05:00",
+    "date": "2025-02-17T08:15:00-05:00",
     "impact": "Low",
-    "forecast": "1.6%",
-    "previous": "-5.9%"
+    "forecast": "251K",
+    "previous": "231K"
   },
   {
-    "title": "FOMC Member Hammack Speaks",
-    "country": "USD",
-    "date": "2025-02-11T08:50:00-05:00",
+    "title": "Foreign Securities Purchases",
+    "country": "CAD",
+    "date": "2025-02-17T08:30:00-05:00",
     "impact": "Low",
-    "forecast": "",
-    "previous": ""
+    "forecast": "14.23B",
+    "previous": "16.40B"
   },
   {
-    "title": "Fed Chair Powell Testifies",
+    "title": "FOMC Member Harker Speaks",
     "country": "USD",
-    "date": "2025-02-11T10:00:00-05:00",
-    "impact": "High",
+    "date": "2025-02-17T09:30:00-05:00",
+    "impact": "Low",
     "forecast": "",
     "previous": ""
   },
   {
     "title": "FOMC Member Bowman Speaks",
     "country": "USD",
-    "date": "2025-02-11T15:30:00-05:00",
+    "date": "2025-02-17T10:20:00-05:00",
     "impact": "Low",
-    "forecast": "",
-    "previous": ""
-  },
-  {
-    "title": "FOMC Member Williams Speaks",
-    "country": "USD",
-    "date": "2025-02-11T15:30:00-05:00",
-    "impact": "Low",
-    "forecast": "",
-    "previous": ""
-  },
-  {
-    "title": "President Trump Speaks",
-    "country": "USD",
-    "date": "2025-02-11T15:40:00-05:00",
-    "impact": "High",
-    "forecast": "",
-    "previous": ""
-  },
-  {
-    "title": "M2 Money Stock y/y",
-    "country": "JPY",
-    "date": "2025-02-11T18:50:00-05:00",
-    "impact": "Low",
-    "forecast": "1.3%",
-    "previous": "1.3%"
-  },
-  {
-    "title": "Prelim Machine Tool Orders y/y",
-    "country": "JPY",
-    "date": "2025-02-12T00:59:00-05:00",
-    "impact": "Low",
-    "forecast": "",
-    "previous": "11.2%"
-  },
-  {
-    "title": "Italian Industrial Production m/m",
-    "country": "EUR",
-    "date": "2025-02-12T04:00:00-05:00",
-    "impact": "Low",
-    "forecast": "-0.1%",
-    "previous": "0.3%"
-  },
-  {
-    "title": "German 30-y Bond Auction",
-    "country": "EUR",
-    "date": "2025-02-12T05:37:00-05:00",
-    "impact": "Low",
-    "forecast": "",
-    "previous": "2.84|2.8"
-  },
-  {
-    "title": "Core CPI m/m",
-    "country": "USD",
-    "date": "2025-02-12T08:30:00-05:00",
-    "impact": "High",
-    "forecast": "0.3%",
-    "previous": "0.2%"
-  },
-  {
-    "title": "CPI m/m",
-    "country": "USD",
-    "date": "2025-02-12T08:30:00-05:00",
-    "impact": "High",
-    "forecast": "0.3%",
-    "previous": "0.4%"
-  },
-  {
-    "title": "CPI y/y",
-    "country": "USD",
-    "date": "2025-02-12T08:30:00-05:00",
-    "impact": "High",
-    "forecast": "2.9%",
-    "previous": "2.9%"
-  },
-  {
-    "title": "CB Leading Index m/m",
-    "country": "GBP",
-    "date": "2025-02-12T09:30:00-05:00",
-    "impact": "Low",
-    "forecast": "",
-    "previous": "-0.3%"
-  },
-  {
-    "title": "MPC Member Greene Speaks",
-    "country": "GBP",
-    "date": "2025-02-12T10:00:00-05:00",
-    "impact": "Low",
-    "forecast": "",
-    "previous": ""
-  },
-  {
-    "title": "Fed Chair Powell Testifies",
-    "country": "USD",
-    "date": "2025-02-12T10:00:00-05:00",
-    "impact": "High",
-    "forecast": "",
-    "previous": ""
-  },
-  {
-    "title": "Crude Oil Inventories",
-    "country": "USD",
-    "date": "2025-02-12T10:30:00-05:00",
-    "impact": "Medium",
-    "forecast": "2.4M",
-    "previous": "8.7M"
-  },
-  {
-    "title": "German Buba President Nagel Speaks",
-    "country": "EUR",
-    "date": "2025-02-12T12:00:00-05:00",
-    "impact": "Low",
-    "forecast": "",
-    "previous": ""
-  },
-  {
-    "title": "FOMC Member Bostic Speaks",
-    "country": "USD",
-    "date": "2025-02-12T12:00:00-05:00",
-    "impact": "Low",
-    "forecast": "",
-    "previous": ""
-  },
-  {
-    "title": "10-y Bond Auction",
-    "country": "USD",
-    "date": "2025-02-12T13:01:00-05:00",
-    "impact": "Low",
-    "forecast": "",
-    "previous": "4.68|2.5"
-  },
-  {
-    "title": "BOC Summary of Deliberations",
-    "country": "CAD",
-    "date": "2025-02-12T13:30:00-05:00",
-    "impact": "Low",
-    "forecast": "",
-    "previous": ""
-  },
-  {
-    "title": "Federal Budget Balance",
-    "country": "USD",
-    "date": "2025-02-12T14:00:00-05:00",
-    "impact": "Low",
-    "forecast": "-88.1B",
-    "previous": "-86.7B"
-  },
-  {
-    "title": "President Trump Speaks",
-    "country": "USD",
-    "date": "2025-02-12T15:48:00-05:00",
-    "impact": "High",
     "forecast": "",
     "previous": ""
   },
   {
     "title": "FOMC Member Waller Speaks",
     "country": "USD",
-    "date": "2025-02-12T17:05:00-05:00",
+    "date": "2025-02-17T18:00:00-05:00",
     "impact": "Medium",
     "forecast": "",
     "previous": ""
   },
   {
-    "title": "PPI y/y",
-    "country": "JPY",
-    "date": "2025-02-12T18:50:00-05:00",
-    "impact": "Low",
-    "forecast": "4.0%",
-    "previous": "3.8%"
-  },
-  {
-    "title": "MI Inflation Expectations",
+    "title": "Cash Rate",
     "country": "AUD",
-    "date": "2025-02-12T19:00:00-05:00",
-    "impact": "Low",
-    "forecast": "",
-    "previous": "4.0%"
+    "date": "2025-02-17T22:30:00-05:00",
+    "impact": "High",
+    "forecast": "4.10%",
+    "previous": "4.35%"
   },
   {
-    "title": "RICS House Price Balance",
-    "country": "GBP",
-    "date": "2025-02-12T19:01:00-05:00",
-    "impact": "Low",
-    "forecast": "27%",
-    "previous": "28%"
-  },
-  {
-    "title": "Inflation Expectations q/q",
-    "country": "NZD",
-    "date": "2025-02-12T21:00:00-05:00",
+    "title": "RBA Monetary Policy Statement",
+    "country": "AUD",
+    "date": "2025-02-17T22:30:00-05:00",
     "impact": "High",
     "forecast": "",
-    "previous": "2.12%"
+    "previous": ""
   },
   {
-    "title": "German Final CPI m/m",
-    "country": "EUR",
-    "date": "2025-02-13T02:00:00-05:00",
-    "impact": "Low",
-    "forecast": "-0.2%",
-    "previous": "-0.2%"
-  },
-  {
-    "title": "GDP m/m",
-    "country": "GBP",
-    "date": "2025-02-13T02:00:00-05:00",
+    "title": "RBA Rate Statement",
+    "country": "AUD",
+    "date": "2025-02-17T22:30:00-05:00",
     "impact": "High",
-    "forecast": "0.1%",
-    "previous": "0.1%"
+    "forecast": "",
+    "previous": ""
   },
   {
-    "title": "Prelim GDP q/q",
-    "country": "GBP",
-    "date": "2025-02-13T02:00:00-05:00",
+    "title": "RBA Press Conference",
+    "country": "AUD",
+    "date": "2025-02-17T23:30:00-05:00",
     "impact": "Medium",
-    "forecast": "-0.1%",
-    "previous": "0.1%"
+    "forecast": "",
+    "previous": ""
   },
   {
-    "title": "Construction Output m/m",
+    "title": "Claimant Count Change",
     "country": "GBP",
-    "date": "2025-02-13T02:00:00-05:00",
-    "impact": "Low",
-    "forecast": "0.2%",
-    "previous": "0.4%"
-  },
-  {
-    "title": "Goods Trade Balance",
-    "country": "GBP",
-    "date": "2025-02-13T02:00:00-05:00",
-    "impact": "Low",
-    "forecast": "-18.6B",
-    "previous": "-19.3B"
-  },
-  {
-    "title": "Index of Services 3m/3m",
-    "country": "GBP",
-    "date": "2025-02-13T02:00:00-05:00",
-    "impact": "Low",
-    "forecast": "0.1%",
-    "previous": "0.0%"
-  },
-  {
-    "title": "Industrial Production m/m",
-    "country": "GBP",
-    "date": "2025-02-13T02:00:00-05:00",
-    "impact": "Low",
-    "forecast": "0.2%",
-    "previous": "-0.4%"
-  },
-  {
-    "title": "Manufacturing Production m/m",
-    "country": "GBP",
-    "date": "2025-02-13T02:00:00-05:00",
-    "impact": "Low",
-    "forecast": "0.0%",
-    "previous": "-0.3%"
-  },
-  {
-    "title": "Prelim Business Investment q/q",
-    "country": "GBP",
-    "date": "2025-02-13T02:00:00-05:00",
-    "impact": "Low",
-    "forecast": "-0.4%",
-    "previous": "1.2%"
-  },
-  {
-    "title": "CPI m/m",
-    "country": "CHF",
-    "date": "2025-02-13T02:30:00-05:00",
+    "date": "2025-02-18T02:00:00-05:00",
     "impact": "High",
+    "forecast": "10.0K",
+    "previous": "0.7K"
+  },
+  {
+    "title": "Average Earnings Index 3m/y",
+    "country": "GBP",
+    "date": "2025-02-18T02:00:00-05:00",
+    "impact": "Medium",
+    "forecast": "5.9%",
+    "previous": "5.6%"
+  },
+  {
+    "title": "Unemployment Rate",
+    "country": "GBP",
+    "date": "2025-02-18T02:00:00-05:00",
+    "impact": "Low",
+    "forecast": "4.5%",
+    "previous": "4.4%"
+  },
+  {
+    "title": "French Final CPI m/m",
+    "country": "EUR",
+    "date": "2025-02-18T02:45:00-05:00",
+    "impact": "Low",
     "forecast": "-0.1%",
     "previous": "-0.1%"
   },
   {
-    "title": "ECB Economic Bulletin",
-    "country": "EUR",
-    "date": "2025-02-13T04:00:00-05:00",
-    "impact": "Low",
-    "forecast": "",
-    "previous": ""
-  },
-  {
-    "title": "Industrial Production m/m",
-    "country": "EUR",
-    "date": "2025-02-13T05:00:00-05:00",
-    "impact": "Low",
-    "forecast": "-0.6%",
-    "previous": "0.2%"
-  },
-  {
-    "title": "NIESR GDP Estimate",
+    "title": "BOE Gov Bailey Speaks",
     "country": "GBP",
-    "date": "2025-02-13T07:46:00-05:00",
-    "impact": "Low",
+    "date": "2025-02-18T04:30:00-05:00",
+    "impact": "High",
     "forecast": "",
-    "previous": "0.0%"
+    "previous": ""
   },
   {
-    "title": "Core PPI m/m",
-    "country": "USD",
-    "date": "2025-02-13T08:30:00-05:00",
-    "impact": "High",
-    "forecast": "0.3%",
-    "previous": "0.0%"
-  },
-  {
-    "title": "PPI m/m",
-    "country": "USD",
-    "date": "2025-02-13T08:30:00-05:00",
-    "impact": "High",
-    "forecast": "0.3%",
-    "previous": "0.2%"
-  },
-  {
-    "title": "Unemployment Claims",
-    "country": "USD",
-    "date": "2025-02-13T08:30:00-05:00",
-    "impact": "High",
-    "forecast": "217K",
-    "previous": "219K"
-  },
-  {
-    "title": "CB Leading Index m/m",
-    "country": "AUD",
-    "date": "2025-02-13T10:30:00-05:00",
-    "impact": "Low",
-    "forecast": "",
-    "previous": "0.7%"
-  },
-  {
-    "title": "Natural Gas Storage",
-    "country": "USD",
-    "date": "2025-02-13T10:30:00-05:00",
-    "impact": "Low",
-    "forecast": "-90B",
-    "previous": "-174B"
-  },
-  {
-    "title": "German Buba President Nagel Speaks",
+    "title": "German ZEW Economic Sentiment",
     "country": "EUR",
-    "date": "2025-02-13T12:00:00-05:00",
+    "date": "2025-02-18T05:00:00-05:00",
+    "impact": "Medium",
+    "forecast": "19.9",
+    "previous": "10.3"
+  },
+  {
+    "title": "ZEW Economic Sentiment",
+    "country": "EUR",
+    "date": "2025-02-18T05:00:00-05:00",
+    "impact": "Low",
+    "forecast": "24.3",
+    "previous": "18.0"
+  },
+  {
+    "title": "ECOFIN Meetings",
+    "country": "EUR",
+    "date": "2025-02-18T05:15:00-05:00",
     "impact": "Low",
     "forecast": "",
     "previous": ""
   },
   {
-    "title": "30-y Bond Auction",
-    "country": "USD",
-    "date": "2025-02-13T13:01:00-05:00",
+    "title": "CPI m/m",
+    "country": "CAD",
+    "date": "2025-02-18T08:30:00-05:00",
+    "impact": "High",
+    "forecast": "0.1%",
+    "previous": "-0.4%"
+  },
+  {
+    "title": "Median CPI y/y",
+    "country": "CAD",
+    "date": "2025-02-18T08:30:00-05:00",
+    "impact": "High",
+    "forecast": "2.5%",
+    "previous": "2.4%"
+  },
+  {
+    "title": "Trimmed CPI y/y",
+    "country": "CAD",
+    "date": "2025-02-18T08:30:00-05:00",
+    "impact": "High",
+    "forecast": "2.6%",
+    "previous": "2.5%"
+  },
+  {
+    "title": "Common CPI y/y",
+    "country": "CAD",
+    "date": "2025-02-18T08:30:00-05:00",
+    "impact": "Medium",
+    "forecast": "2.1%",
+    "previous": "2.0%"
+  },
+  {
+    "title": "Core CPI m/m",
+    "country": "CAD",
+    "date": "2025-02-18T08:30:00-05:00",
     "impact": "Low",
     "forecast": "",
-    "previous": "4.91|2.5"
+    "previous": "-0.3%"
+  },
+  {
+    "title": "Empire State Manufacturing Index",
+    "country": "USD",
+    "date": "2025-02-18T08:30:00-05:00",
+    "impact": "Medium",
+    "forecast": "-1.9",
+    "previous": "-12.6"
+  },
+  {
+    "title": "GDT Price Index",
+    "country": "NZD",
+    "date": "2025-02-18T09:29:00-05:00",
+    "impact": "Low",
+    "forecast": "",
+    "previous": "3.7%"
+  },
+  {
+    "title": "NAHB Housing Market Index",
+    "country": "USD",
+    "date": "2025-02-18T10:00:00-05:00",
+    "impact": "Low",
+    "forecast": "46",
+    "previous": "47"
+  },
+  {
+    "title": "FOMC Member Daly Speaks",
+    "country": "USD",
+    "date": "2025-02-18T10:20:00-05:00",
+    "impact": "Low",
+    "forecast": "",
+    "previous": ""
+  },
+  {
+    "title": "FOMC Member Barr Speaks",
+    "country": "USD",
+    "date": "2025-02-18T13:00:00-05:00",
+    "impact": "Low",
+    "forecast": "",
+    "previous": ""
+  },
+  {
+    "title": "TIC Long-Term Purchases",
+    "country": "USD",
+    "date": "2025-02-18T16:00:00-05:00",
+    "impact": "Low",
+    "forecast": "149.1B",
+    "previous": "79.0B"
   },
   {
     "title": "President Trump Speaks",
     "country": "USD",
-    "date": "2025-02-13T13:36:00-05:00",
+    "date": "2025-02-18T16:13:00-05:00",
     "impact": "High",
     "forecast": "",
     "previous": ""
   },
   {
-    "title": "BusinessNZ Manufacturing Index",
+    "title": "PPI Input q/q",
     "country": "NZD",
-    "date": "2025-02-13T16:30:00-05:00",
+    "date": "2025-02-18T16:45:00-05:00",
+    "impact": "Low",
+    "forecast": "1.4%",
+    "previous": "1.9%"
+  },
+  {
+    "title": "PPI Output q/q",
+    "country": "NZD",
+    "date": "2025-02-18T16:45:00-05:00",
+    "impact": "Low",
+    "forecast": "1.1%",
+    "previous": "1.5%"
+  },
+  {
+    "title": "MI Leading Index m/m",
+    "country": "AUD",
+    "date": "2025-02-18T18:30:00-05:00",
     "impact": "Low",
     "forecast": "",
-    "previous": "45.9"
-  },
-  {
-    "title": "FPI m/m",
-    "country": "NZD",
-    "date": "2025-02-13T16:45:00-05:00",
-    "impact": "Low",
-    "forecast": "",
-    "previous": "0.1%"
-  },
-  {
-    "title": "German WPI m/m",
-    "country": "EUR",
-    "date": "2025-02-14T02:00:00-05:00",
-    "impact": "Low",
-    "forecast": "0.2%",
-    "previous": "0.1%"
-  },
-  {
-    "title": "PPI m/m",
-    "country": "CHF",
-    "date": "2025-02-14T02:30:00-05:00",
-    "impact": "Low",
-    "forecast": "0.1%",
     "previous": "0.0%"
   },
   {
-    "title": "M2 Money Supply y/y",
-    "country": "CNY",
-    "date": "2025-02-14T04:02:00-05:00",
+    "title": "Core Machinery Orders m/m",
+    "country": "JPY",
+    "date": "2025-02-18T18:50:00-05:00",
     "impact": "Low",
-    "forecast": "7.3%",
-    "previous": "7.3%"
+    "forecast": "0.4%",
+    "previous": "3.4%"
   },
   {
-    "title": "New Loans",
-    "country": "CNY",
-    "date": "2025-02-14T04:03:00-05:00",
-    "impact": "Medium",
-    "forecast": "770B",
-    "previous": "990B"
+    "title": "Trade Balance",
+    "country": "JPY",
+    "date": "2025-02-18T18:50:00-05:00",
+    "impact": "Low",
+    "forecast": "-0.26T",
+    "previous": "-0.03T"
   },
   {
-    "title": "Flash Employment Change q/q",
-    "country": "EUR",
-    "date": "2025-02-14T05:00:00-05:00",
-    "impact": "Low",
-    "forecast": "0.1%",
-    "previous": "0.2%"
-  },
-  {
-    "title": "Flash GDP q/q",
-    "country": "EUR",
-    "date": "2025-02-14T05:00:00-05:00",
-    "impact": "Low",
-    "forecast": "0.0%",
-    "previous": "0.0%"
-  },
-  {
-    "title": "Manufacturing Sales m/m",
-    "country": "CAD",
-    "date": "2025-02-14T08:30:00-05:00",
-    "impact": "Low",
+    "title": "Wage Price Index q/q",
+    "country": "AUD",
+    "date": "2025-02-18T19:30:00-05:00",
+    "impact": "High",
     "forecast": "0.8%",
     "previous": "0.8%"
   },
   {
-    "title": "Wholesale Sales m/m",
-    "country": "CAD",
-    "date": "2025-02-14T08:30:00-05:00",
-    "impact": "Low",
-    "forecast": "0.2%",
-    "previous": "-0.2%"
+    "title": "Official Cash Rate",
+    "country": "NZD",
+    "date": "2025-02-18T20:00:00-05:00",
+    "impact": "High",
+    "forecast": "3.75%",
+    "previous": "4.25%"
   },
   {
-    "title": "Core Retail Sales m/m",
-    "country": "USD",
-    "date": "2025-02-14T08:30:00-05:00",
+    "title": "RBNZ Monetary Policy Statement",
+    "country": "NZD",
+    "date": "2025-02-18T20:00:00-05:00",
     "impact": "High",
-    "forecast": "0.3%",
-    "previous": "0.4%"
+    "forecast": "",
+    "previous": ""
+  },
+  {
+    "title": "RBNZ Rate Statement",
+    "country": "NZD",
+    "date": "2025-02-18T20:00:00-05:00",
+    "impact": "High",
+    "forecast": "",
+    "previous": ""
+  },
+  {
+    "title": "New Home Prices m/m",
+    "country": "CNY",
+    "date": "2025-02-18T20:30:00-05:00",
+    "impact": "Low",
+    "forecast": "",
+    "previous": "-0.08%"
+  },
+  {
+    "title": "RBNZ Press Conference",
+    "country": "NZD",
+    "date": "2025-02-18T21:00:00-05:00",
+    "impact": "High",
+    "forecast": "",
+    "previous": ""
+  },
+  {
+    "title": "President Trump Speaks",
+    "country": "USD",
+    "date": "2025-02-18T21:00:00-05:00",
+    "impact": "High",
+    "forecast": "",
+    "previous": ""
+  },
+  {
+    "title": "CPI y/y",
+    "country": "GBP",
+    "date": "2025-02-19T02:00:00-05:00",
+    "impact": "High",
+    "forecast": "2.8%",
+    "previous": "2.5%"
+  },
+  {
+    "title": "Core CPI y/y",
+    "country": "GBP",
+    "date": "2025-02-19T02:00:00-05:00",
+    "impact": "Low",
+    "forecast": "3.7%",
+    "previous": "3.2%"
+  },
+  {
+    "title": "PPI Input m/m",
+    "country": "GBP",
+    "date": "2025-02-19T02:00:00-05:00",
+    "impact": "Low",
+    "forecast": "0.7%",
+    "previous": "0.1%"
+  },
+  {
+    "title": "PPI Output m/m",
+    "country": "GBP",
+    "date": "2025-02-19T02:00:00-05:00",
+    "impact": "Low",
+    "forecast": "0.2%",
+    "previous": "0.1%"
+  },
+  {
+    "title": "RPI y/y",
+    "country": "GBP",
+    "date": "2025-02-19T02:00:00-05:00",
+    "impact": "Low",
+    "forecast": "3.7%",
+    "previous": "3.5%"
+  },
+  {
+    "title": "Current Account",
+    "country": "EUR",
+    "date": "2025-02-19T04:00:00-05:00",
+    "impact": "Low",
+    "forecast": "30.2B",
+    "previous": "27.0B"
+  },
+  {
+    "title": "HPI y/y",
+    "country": "GBP",
+    "date": "2025-02-19T04:30:00-05:00",
+    "impact": "Low",
+    "forecast": "3.2%",
+    "previous": "3.3%"
+  },
+  {
+    "title": "EU Economic Forecasts",
+    "country": "EUR",
+    "date": "2025-02-19T05:03:00-05:00",
+    "impact": "Low",
+    "forecast": "",
+    "previous": ""
+  },
+  {
+    "title": "German 10-y Bond Auction",
+    "country": "EUR",
+    "date": "2025-02-19T05:42:00-05:00",
+    "impact": "Low",
+    "forecast": "",
+    "previous": "2.54|2.8"
+  },
+  {
+    "title": "Building Permits",
+    "country": "USD",
+    "date": "2025-02-19T08:30:00-05:00",
+    "impact": "Low",
+    "forecast": "1.46M",
+    "previous": "1.48M"
+  },
+  {
+    "title": "Housing Starts",
+    "country": "USD",
+    "date": "2025-02-19T08:30:00-05:00",
+    "impact": "Low",
+    "forecast": "1.39M",
+    "previous": "1.50M"
+  },
+  {
+    "title": "FOMC Meeting Minutes",
+    "country": "USD",
+    "date": "2025-02-19T14:00:00-05:00",
+    "impact": "High",
+    "forecast": "",
+    "previous": ""
+  },
+  {
+    "title": "RBNZ Gov Orr Speaks",
+    "country": "NZD",
+    "date": "2025-02-19T14:10:00-05:00",
+    "impact": "Medium",
+    "forecast": "",
+    "previous": ""
+  },
+  {
+    "title": "FOMC Member Jefferson Speaks",
+    "country": "USD",
+    "date": "2025-02-19T17:00:00-05:00",
+    "impact": "Low",
+    "forecast": "",
+    "previous": ""
+  },
+  {
+    "title": "Employment Change",
+    "country": "AUD",
+    "date": "2025-02-19T19:30:00-05:00",
+    "impact": "High",
+    "forecast": "19.4K",
+    "previous": "56.3K"
+  },
+  {
+    "title": "Unemployment Rate",
+    "country": "AUD",
+    "date": "2025-02-19T19:30:00-05:00",
+    "impact": "High",
+    "forecast": "4.1%",
+    "previous": "4.0%"
+  },
+  {
+    "title": "1-y Loan Prime Rate",
+    "country": "CNY",
+    "date": "2025-02-19T20:00:00-05:00",
+    "impact": "Medium",
+    "forecast": "3.10%",
+    "previous": "3.10%"
+  },
+  {
+    "title": "5-y Loan Prime Rate",
+    "country": "CNY",
+    "date": "2025-02-19T20:00:00-05:00",
+    "impact": "Medium",
+    "forecast": "3.60%",
+    "previous": "3.60%"
+  },
+  {
+    "title": "Trade Balance",
+    "country": "CHF",
+    "date": "2025-02-20T02:00:00-05:00",
+    "impact": "Low",
+    "forecast": "3.55B",
+    "previous": "3.49B"
+  },
+  {
+    "title": "German PPI m/m",
+    "country": "EUR",
+    "date": "2025-02-20T02:00:00-05:00",
+    "impact": "Low",
+    "forecast": "0.6%",
+    "previous": "-0.1%"
+  },
+  {
+    "title": "Foreign Direct Investment ytd/y",
+    "country": "CNY",
+    "date": "2025-02-20T02:02:00-05:00",
+    "impact": "Low",
+    "forecast": "",
+    "previous": "-27.1%"
+  },
+  {
+    "title": "CBI Industrial Order Expectations",
+    "country": "GBP",
+    "date": "2025-02-20T06:00:00-05:00",
+    "impact": "Low",
+    "forecast": "-30",
+    "previous": "-34"
+  },
+  {
+    "title": "IPPI m/m",
+    "country": "CAD",
+    "date": "2025-02-20T08:30:00-05:00",
+    "impact": "Low",
+    "forecast": "0.8%",
+    "previous": "0.2%"
+  },
+  {
+    "title": "NHPI m/m",
+    "country": "CAD",
+    "date": "2025-02-20T08:30:00-05:00",
+    "impact": "Low",
+    "forecast": "0.1%",
+    "previous": "-0.1%"
+  },
+  {
+    "title": "RMPI m/m",
+    "country": "CAD",
+    "date": "2025-02-20T08:30:00-05:00",
+    "impact": "Low",
+    "forecast": "2.4%",
+    "previous": "1.3%"
+  },
+  {
+    "title": "Unemployment Claims",
+    "country": "USD",
+    "date": "2025-02-20T08:30:00-05:00",
+    "impact": "High",
+    "forecast": "214K",
+    "previous": "213K"
+  },
+  {
+    "title": "Philly Fed Manufacturing Index",
+    "country": "USD",
+    "date": "2025-02-20T08:30:00-05:00",
+    "impact": "Medium",
+    "forecast": "19.4",
+    "previous": "44.3"
+  },
+  {
+    "title": "FOMC Member Goolsbee Speaks",
+    "country": "USD",
+    "date": "2025-02-20T09:35:00-05:00",
+    "impact": "Low",
+    "forecast": "",
+    "previous": ""
+  },
+  {
+    "title": "Consumer Confidence",
+    "country": "EUR",
+    "date": "2025-02-20T10:00:00-05:00",
+    "impact": "Low",
+    "forecast": "-14",
+    "previous": "-14"
+  },
+  {
+    "title": "CB Leading Index m/m",
+    "country": "USD",
+    "date": "2025-02-20T10:00:00-05:00",
+    "impact": "Low",
+    "forecast": "-0.1%",
+    "previous": "-0.1%"
+  },
+  {
+    "title": "Natural Gas Storage",
+    "country": "USD",
+    "date": "2025-02-20T10:30:00-05:00",
+    "impact": "Low",
+    "forecast": "",
+    "previous": ""
+  },
+  {
+    "title": "German Buba President Nagel Speaks",
+    "country": "EUR",
+    "date": "2025-02-20T11:00:00-05:00",
+    "impact": "Low",
+    "forecast": "",
+    "previous": ""
+  },
+  {
+    "title": "Crude Oil Inventories",
+    "country": "USD",
+    "date": "2025-02-20T12:00:00-05:00",
+    "impact": "Medium",
+    "forecast": "",
+    "previous": "4.1M"
+  },
+  {
+    "title": "FOMC Member Musalem Speaks",
+    "country": "USD",
+    "date": "2025-02-20T12:05:00-05:00",
+    "impact": "Low",
+    "forecast": "",
+    "previous": ""
+  },
+  {
+    "title": "FOMC Member Barr Speaks",
+    "country": "USD",
+    "date": "2025-02-20T14:30:00-05:00",
+    "impact": "Low",
+    "forecast": "",
+    "previous": ""
+  },
+  {
+    "title": "Trade Balance",
+    "country": "NZD",
+    "date": "2025-02-20T16:45:00-05:00",
+    "impact": "Low",
+    "forecast": "225M",
+    "previous": "219M"
+  },
+  {
+    "title": "Flash Manufacturing PMI",
+    "country": "AUD",
+    "date": "2025-02-20T17:00:00-05:00",
+    "impact": "Low",
+    "forecast": "",
+    "previous": "49.8"
+  },
+  {
+    "title": "Flash Services PMI",
+    "country": "AUD",
+    "date": "2025-02-20T17:00:00-05:00",
+    "impact": "Low",
+    "forecast": "",
+    "previous": "50.4"
+  },
+  {
+    "title": "FOMC Member Kugler Speaks",
+    "country": "USD",
+    "date": "2025-02-20T17:00:00-05:00",
+    "impact": "Low",
+    "forecast": "",
+    "previous": ""
+  },
+  {
+    "title": "RBA Gov Bullock Speaks",
+    "country": "AUD",
+    "date": "2025-02-20T17:30:00-05:00",
+    "impact": "High",
+    "forecast": "",
+    "previous": ""
+  },
+  {
+    "title": "National Core CPI y/y",
+    "country": "JPY",
+    "date": "2025-02-20T18:30:00-05:00",
+    "impact": "Low",
+    "forecast": "3.1%",
+    "previous": "3.0%"
+  },
+  {
+    "title": "GfK Consumer Confidence",
+    "country": "GBP",
+    "date": "2025-02-20T19:01:00-05:00",
+    "impact": "Low",
+    "forecast": "-22",
+    "previous": "-22"
+  },
+  {
+    "title": "Flash Manufacturing PMI",
+    "country": "JPY",
+    "date": "2025-02-20T19:30:00-05:00",
+    "impact": "Low",
+    "forecast": "49.0",
+    "previous": "48.8"
   },
   {
     "title": "Retail Sales m/m",
-    "country": "USD",
-    "date": "2025-02-14T08:30:00-05:00",
+    "country": "GBP",
+    "date": "2025-02-21T02:00:00-05:00",
     "impact": "High",
-    "forecast": "-0.2%",
-    "previous": "0.4%"
-  },
-  {
-    "title": "Import Prices m/m",
-    "country": "USD",
-    "date": "2025-02-14T08:30:00-05:00",
-    "impact": "Low",
     "forecast": "0.4%",
-    "previous": "0.1%"
+    "previous": "-0.3%"
   },
   {
-    "title": "Capacity Utilization Rate",
-    "country": "USD",
-    "date": "2025-02-14T09:15:00-05:00",
+    "title": "Public Sector Net Borrowing",
+    "country": "GBP",
+    "date": "2025-02-21T02:00:00-05:00",
     "impact": "Low",
-    "forecast": "77.7%",
-    "previous": "77.6%"
+    "forecast": "-20.1B",
+    "previous": "17.8B"
   },
   {
-    "title": "Industrial Production m/m",
-    "country": "USD",
-    "date": "2025-02-14T09:15:00-05:00",
-    "impact": "Low",
-    "forecast": "0.3%",
-    "previous": "0.9%"
+    "title": "French Flash Manufacturing PMI",
+    "country": "EUR",
+    "date": "2025-02-21T03:15:00-05:00",
+    "impact": "High",
+    "forecast": "45.3",
+    "previous": "45.3"
   },
   {
-    "title": "Business Inventories m/m",
-    "country": "USD",
-    "date": "2025-02-14T10:00:00-05:00",
-    "impact": "Low",
-    "forecast": "0.0%",
-    "previous": "0.1%"
+    "title": "French Flash Services PMI",
+    "country": "EUR",
+    "date": "2025-02-21T03:15:00-05:00",
+    "impact": "High",
+    "forecast": "48.8",
+    "previous": "48.9"
   },
   {
-    "title": "FOMC Member Logan Speaks",
+    "title": "German Flash Manufacturing PMI",
+    "country": "EUR",
+    "date": "2025-02-21T03:30:00-05:00",
+    "impact": "High",
+    "forecast": "45.4",
+    "previous": "44.1"
+  },
+  {
+    "title": "German Flash Services PMI",
+    "country": "EUR",
+    "date": "2025-02-21T03:30:00-05:00",
+    "impact": "High",
+    "forecast": "52.4",
+    "previous": "52.5"
+  },
+  {
+    "title": "Flash Manufacturing PMI",
+    "country": "EUR",
+    "date": "2025-02-21T04:00:00-05:00",
+    "impact": "Medium",
+    "forecast": "46.9",
+    "previous": "46.1"
+  },
+  {
+    "title": "Flash Services PMI",
+    "country": "EUR",
+    "date": "2025-02-21T04:00:00-05:00",
+    "impact": "Medium",
+    "forecast": "51.5",
+    "previous": "51.4"
+  },
+  {
+    "title": "Flash Manufacturing PMI",
+    "country": "GBP",
+    "date": "2025-02-21T04:30:00-05:00",
+    "impact": "High",
+    "forecast": "48.5",
+    "previous": "48.2"
+  },
+  {
+    "title": "Flash Services PMI",
+    "country": "GBP",
+    "date": "2025-02-21T04:30:00-05:00",
+    "impact": "High",
+    "forecast": "50.8",
+    "previous": "51.2"
+  },
+  {
+    "title": "Core Retail Sales m/m",
+    "country": "CAD",
+    "date": "2025-02-21T08:30:00-05:00",
+    "impact": "High",
+    "forecast": "1.7%",
+    "previous": "-0.7%"
+  },
+  {
+    "title": "Retail Sales m/m",
+    "country": "CAD",
+    "date": "2025-02-21T08:30:00-05:00",
+    "impact": "High",
+    "forecast": "1.5%",
+    "previous": "0.0%"
+  },
+  {
+    "title": "Flash Manufacturing PMI",
     "country": "USD",
-    "date": "2025-02-14T15:00:00-05:00",
+    "date": "2025-02-21T09:45:00-05:00",
+    "impact": "High",
+    "forecast": "51.2",
+    "previous": "50.1"
+  },
+  {
+    "title": "Flash Services PMI",
+    "country": "USD",
+    "date": "2025-02-21T09:45:00-05:00",
+    "impact": "High",
+    "forecast": "53.0",
+    "previous": "52.8"
+  },
+  {
+    "title": "Existing Home Sales",
+    "country": "USD",
+    "date": "2025-02-21T10:00:00-05:00",
+    "impact": "Medium",
+    "forecast": "4.13M",
+    "previous": "4.24M"
+  },
+  {
+    "title": "Revised UoM Consumer Sentiment",
+    "country": "USD",
+    "date": "2025-02-21T10:00:00-05:00",
+    "impact": "Medium",
+    "forecast": "67.8",
+    "previous": "67.8"
+  },
+  {
+    "title": "Revised UoM Inflation Expectations",
+    "country": "USD",
+    "date": "2025-02-21T10:00:00-05:00",
     "impact": "Low",
+    "forecast": "",
+    "previous": "4.3%"
+  },
+  {
+    "title": "FOMC Member Jefferson Speaks",
+    "country": "USD",
+    "date": "2025-02-21T11:30:00-05:00",
+    "impact": "Low",
+    "forecast": "",
+    "previous": ""
+  },
+  {
+    "title": "BOC Gov Macklem Speaks",
+    "country": "CAD",
+    "date": "2025-02-21T12:30:00-05:00",
+    "impact": "High",
     "forecast": "",
     "previous": ""
   }
