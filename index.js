@@ -74,14 +74,14 @@ async function fetchForexFactoryEvents() {
   });
 }
 
-// Schedule a job to run daily at 6:10 AM
-schedule.scheduleJob("00 6 * * *", async () => {
-  console.log("Running daily scheduled fetch...");
+// Schedule a job to run every Sunday at 6:10 AM
+schedule.scheduleJob("10 6 * * 0", async () => {
+  console.log("Running weekly scheduled fetch...");
 
   try {
     const events = await fetchForexFactoryEvents();
     if (events.length > 0) {
-      console.log("Fetched daily events.");
+      console.log("Fetched weekly events.");
       await sendWeeklyEventsToAllChannels(events);
     } else {
       console.log("No events found.");
@@ -221,3 +221,4 @@ const express = require("express");
 const app = express(); 
 app.get("/", (req, res) => { res.send("Express on Vercel"); }); 
 const PORT = process.env.PORT || 5000; app.listen(PORT, () => {console.log(`Server is running on port ${PORT}`); });
+fetchForexFactoryEvents();
