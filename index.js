@@ -226,4 +226,18 @@ const express = require("express");
 const app = express(); 
 app.get("/", (req, res) => { res.send("Express on Vercel"); }); 
 const PORT = process.env.PORT || 5000; app.listen(PORT, () => {console.log(`Server is running on port ${PORT}`); });
-fetchForexFactoryEvents();
+
+async function sendWeeklyEventsToAllChannels(events) {
+  const channels = client.channels.cache.filter(channel => 
+    channel.type === 0 && // Text channels
+    channel.permissionsFor(client.user).has(PermissionsBitField.Flags.SendMessages)
+  );
+  
+  for (const channel of channels.values()) {
+    try {
+      await sendWeeklyEvents(channel);
+    } catch (error) {
+      console.error(`Error sending weekly events to channel ${channel.name}:`, error);
+    }
+  }
+}
