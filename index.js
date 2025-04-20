@@ -7,17 +7,17 @@ const {
   PermissionsBitField,
 } = require("discord.js");
 const schedule = require("node-schedule");
-const dateFormat = require("dateformat"); // Add dateFormat for formatting dates
+const dateFormat = require("dateformat");
 const moment = require("moment-timezone");
 
 const CACHE_FILE = path.join(__dirname, "cached_events.json");
 
-// Initialize the Discord Bot
+// Initialize the Discord Bot and set perms
 const client = new Client({
   intents: [
     GatewayIntentBits.Guilds,
     GatewayIntentBits.GuildMessages,
-    GatewayIntentBits.MessageContent, // Needed to read message content
+    GatewayIntentBits.MessageContent, 
   ],
 });
 
@@ -78,25 +78,24 @@ async function fetchForexFactoryEvents() {
 // Define the timezone you want to use
 const timezone = 'America/New_York'; // Change this to your desired timezone
 
-// Schedule a job to run every Sunday at 6:10 AM in the specified timezone
-schedule.scheduleJob('10 2 * * 0', async () => {
+// Schedule a job to run every day at 6:10 AM in the specified timezone
+schedule.scheduleJob('* 6 * * *', async () => {
   const now = moment().tz(timezone);
-  if (now.day() === 0 && now.hour() === 6 && now.minute() === 10) {
-    console.log("Running weekly scheduled fetch...");
+  console.log("Running daily scheduled fetch...");
 
-    try {
-      const events = await fetchForexFactoryEvents();
-      if (events.length > 0) {
-        console.log("Fetched weekly events.");
-        await sendWeeklyEventsToAllChannels(events);
-      } else {
-        console.log("No events found.");
-      }
-    } catch (error) {
-      console.error("Error during scheduled fetch:", error);
+  try {
+    const events = await fetchForexFactoryEvents();
+    if (events.length > 0) {
+      console.log("Fetched and cached daily events.");
+      await sendWeeklyEventsToAllChannels(events);
+    } else {
+      console.log("No events found.");
     }
+  } catch (error) {
+    console.error("Error during scheduled fetch:", error);
   }
 });
+
 // Function to handle the command and output events for the entire week
 async function sendWeeklyEvents(channel) {
   try {
