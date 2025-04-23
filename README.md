@@ -89,23 +89,7 @@ node index.js
 
 All event-fetching logic is cached via `cached_events.json` to reduce unnecessary API calls. Modify the scheduling logic (using `node-schedule`) to suit your timezones or trading habits.
 
----
-
-## 🧾 Contributor Expectations
-
-- Open an issue to discuss your change before submitting a PR.
-- Ensure commits are clean, meaningful, and preferably squashed before merge.
-- Follow conventional commit messages (`fix:`, `feat:`, `refactor:` etc).
-- Validate your changes against the ForexFactory API and test locally.
-
----
-
-## ⚠️ Known Issues
-
-- The bot currently fetches events only from the ForexFactory JSON endpoint, which may rate-limit you if overused.
-- Timezone adjustment is hardcoded to `America/New_York` and `UTC+3` conversion for display; future releases will allow dynamic timezone selection.
-
----
+Any issues can be relayed to me at - shreshtprasad17@gmail.com
 
 ## 📢 Commands
 
