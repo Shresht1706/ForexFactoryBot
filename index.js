@@ -79,7 +79,7 @@ async function fetchForexFactoryEvents() {
 const timezone = 'America/New_York'; // Change this to your desired timezone
 
 // Schedule a job to run every day at 6:10 AM in the specified timezone
-schedule.scheduleJob('* 6 * * *', async () => {
+schedule.scheduleJob('10 6 * * *', async () => {
   const now = moment().tz(timezone);
   console.log("Running daily scheduled fetch...");
 
@@ -97,7 +97,7 @@ schedule.scheduleJob('* 6 * * *', async () => {
 });
 
 // Function to handle the command and output events for the entire week
-async function sendWeeklyEvents(channel) {
+async function sendWeeklyEvents(channel, events) {
   try {
     const today = new Date();
     const startOfWeek = new Date(today.setDate(today.getDate() - today.getDay())); // Start of the week (Sunday)
@@ -234,9 +234,17 @@ async function sendWeeklyEventsToAllChannels(events) {
   
   for (const channel of channels.values()) {
     try {
-      await sendWeeklyEvents(channel);
+      await sendWeeklyEvents(channel, events);
     } catch (error) {
-      console.error(`Error sending weekly events to channel ${channel.name}:`, error);
+      console.error(`Error sending events to channel: ${channel.id}`, error);
     }
+  }
+}
+
+async function sendWeeklyEvents(channel, events) {
+  try {
+    await sendWeeklyEvents(channel, events);
+  } catch (error) {
+    console.error(`Error sending events to channel: ${channel.id}`, error);
   }
 }
