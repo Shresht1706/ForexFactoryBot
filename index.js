@@ -99,7 +99,6 @@ schedule.scheduleJob('* 6 * * *', async () => {
 // Function to handle the command and output events for the entire week
 async function sendWeeklyEvents(channel) {
   try {
-    const events = await fetchForexFactoryEvents();
     const today = new Date();
     const startOfWeek = new Date(today.setDate(today.getDate() - today.getDay())); // Start of the week (Sunday)
     const endOfWeek = new Date(today.setDate(today.getDate() - today.getDay() + 6)); // End of the week (Saturday)
